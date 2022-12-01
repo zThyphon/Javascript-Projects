@@ -1,0 +1,41 @@
+body
+{  
+    /* Set Background Color */
+    background-color: #00cec9;
+}
+
+.container
+{
+    /* Set Max Width of Div */
+    max-width:400px;
+}
+
+input[type=text],
+input[type=text]:focus
+{
+    /* Set Text Color */
+    color:#fff;
+    /* Remove Borders */
+    border:none;
+    /* Set Background */
+    background:rgba(0,0,0,0.2);
+
+}
+
+.todos li
+{
+    /* Set To Do List Items' Background */
+    background:#fdcb6e;
+}
+
+.delete
+{
+    /* Set Icon Pointer */
+    cursor:pointer;
+}
+
+.filtered
+{
+    /* Hide items which weren't filtered */
+    display:none !important;
+}
