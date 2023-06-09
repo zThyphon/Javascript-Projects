@@ -1,0 +1,31 @@
+body
+{
+    background: #eeedec;
+    letter-spacing: 0.1em;
+    font-size:0.8em;
+}
+
+.container
+{
+    max-width: 400px;
+
+}
+
+.container .location_label
+{
+    font-size:2em;
+}
+
+.container .location .location_box
+{
+    background: rgb(255, 255, 255) !important;
+}
+
+.icon
+{
+    position:relative;
+    top:-50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
